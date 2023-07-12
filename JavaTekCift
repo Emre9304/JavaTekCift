@@ -1,0 +1,42 @@
+package giris;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Sayı giriniz: ");
+        int sum = 0;
+        boolean bool = true;
+        while(bool){
+            System.out.println("Bir sayı giriniz: ");
+            int a = input.nextInt();
+            if (a %2 ==1){
+                System.out.println(sum);
+                bool = false;
+
+            }
+            if (a%4==0){
+                sum = sum + a;
+
+
+            }
+        }
+
+
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
